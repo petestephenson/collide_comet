@@ -1,0 +1,409 @@
+     --------------------------------------- 
+             H2O + e- CROSS SECTION SET 
+     --------------------------------------- 
+* ELASTIC cross sections [from 1eV to 100 eV Itikawa & Mason, 2005 (Table 4), higher than 100eV, Munoz et al, 2007, below 1eV, set constant to high value of 50e-16]: 
+   25    <- energy # - Energy grid (eV): 
+0.1	0.4	0.6	0.8	0.9
+1	2	4	6	10
+20	30	40	50	60
+70	80	90	100	200
+300	400	500	750	1000
+1     <- Multiplication factor - Cross section (cm^2): 
+   50.0000e-16    50.0000e-16    50.00000e-16    50.0000e-16    50.0000e-16 
+   117.000e-16    61.8000e-16     35.60000e-16    28.10000e-16    21.900000e-16 
+   15.0000e-16    11.100000e-16    8.50000e-16    6.62000e-16    5.370000e-16 
+   4.720000e-16    4.130000e-16    3.600000e-16    3.43000e-16    1.71000e-16 
+   1.30000e-16    1.070000e-16    0.9200000e-16    0.690000e-16    0.550000e-16 
+
+* INELASTIC cross sections for H2O
+   29    <- Number of processes (exc only) 
+H2O-rotational-transition-J=0->1  
+   0.005   0    <- Threshold (eV) [higher energy], Charge state
+   50   <- Energy # 
+Energy (eV):  
+0.001 0.002   0.003   0.004   0.005	 
+0.006 0.007 0.008 0.009	 0.01	 
+0.012 0.015 0.017 0.02	 0.022	
+0.025	0.03	0.04	 0.05 0.06	 
+0.07	0.08	 0.09	 0.1     0.12	
+0.15	0.17	0.2     0.22	 0.25	
+0.3      0.4     0.5     0.6     0.7      
+0.8     0.9    1       1.2      1.5      
+1.7      2        2.2     2.5     3        
+4        5       50      500     1000    
+1     <- Multiplication factor for cross section 
+Cross section (cm^2) [Itikawa and Mason, 2006]: 
+    0 		0 	0 	0 	1214e-16 
+    1915e-16 2152e-16 2236e-16 2252e-16 2233e-16 
+    2151e-16  1998e-16  1898e-16  1761e-16  1679e-16 
+    1570e-16  1417e-16  1191e-16  1033e-16  914.5e-16 
+    823.0e-16  749.8e-16  689.7e-16  639.5e-16    560.0e-16 
+    474.5e-16 431.8e-16 381.6e-16  354.6e-16 321.2e-16 
+    278.6e-16   221.8e-16   185.4e-16   159.9e-16   140.9e-16 
+    126.2e-16  114.5e-16   104.9e-16   90.04e-16   74.63e-16 
+    67.15e-16   58.54e-16 54.02e-16  48.50e-16   41.60e-16 
+    32.63e-16 27.02e-16  2.7e-16  0.27e-16  0.1e-16
+
+H2O-vibrational-excitation-v=010  
+   0.198   0    <- Threshold (eV) [Itikawa and Mason, 2005], Charge state 
+   17   <- Energy # 
+Energy (eV): 
+   0.198    0.3    0.34    0.39    0.6 
+   0.862    1   2    2.2    3 
+   4    5    6    8    10 
+   15    20
+   1     <- Multiplication factor for cross section 
+Cross section (cm^2) [Itikawa and Mason, 2005]: 
+ 1e-33   1.71e-16   1.805e-16   1.748e-16    0.7885e-16
+ 0.399e-16    0.370e-16    0.200e-16  0.190e-16   0.160e-16
+ 0.150e-16   0.157e-16    0.163e-16   0.17e-16    0.18e-16
+ 0.130e-16    0.10e-16
+H2O-vibrational-excitation-v=100and001                       
+   0.453    0    <- Threshold (eV) [Itikawa and Mason, 2005]
+    18   <- Energy # 
+Energy (eV): 
+   0.453    0.53    0.58    0.63    0.8 
+    1   2.1    3    4    5 
+    6    7    7.5   8   8.875 
+   10    15    20
+   1     <- Multiplication factor for cross section 
+Cross section (cm^2) [Itikawa and Mason, 2005]:
+    1e-33     2.25e-16    2.32e-16   2.27e-16    0.60e-16
+    0.50e-16   0.32e-16    0.31e-16    0.385e-16   0.43e-16
+    0.489e-16  0.520e-16   0.529e-16  0.495e-16  0.413e-16
+    0.325e-16   0.190e-16   0.080e-16
+
+H2O-state1
+   7.140   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   7.14   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    20.590000e-19    23.710000e-19    22.780000e-19    26.400000e-19 
+   19.660000e-19    1.0000e-33 
+
+H2O-state2
+   7.490   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   7.49   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    25.90000e-19    55.440000e-19    67.130000e-19    77.00000e-19 
+   63.490000e-19    1.0000e-33 
+
+H2O-state3
+   8.90   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   8.90   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    5.580000e-19    13.010000e-19    15.150000e-19    10.790000e-19 
+   6.940000e-19    1.0000e-33 
+
+H2O-state4
+   9.20   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   9.20   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    6.170000e-19    12.010000e-19    7.760000e-19    14.550000e-19 
+   12.640000e-19    1.0000e-33 
+
+H2O-state5
+   9.450   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   9.45   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    4.870000e-19    14.760000e-19    23.920000e-19    32.800000e-19 
+   29.270000e-19    1.0000e-33 
+
+H2O-state6
+   9.730   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   9.73   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.740000e-19    13.370000e-19    16.890000e-19    25.370000e-19 
+   22.560000e-19    1.0000e-33 
+
+H2O-state7
+   9.790   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   9.79   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    1.250000e-19    4.02000e-19    5.30000e-19    4.810000e-19 
+   4.870000e-19    1.0000e-33 
+
+H2O-state8
+   9.930   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   9.93   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    2.020000e-19    7.850000e-19    13.460000e-19    18.400000e-19 
+   16.780000e-19    1.0000e-33 
+
+H2O-state9
+   10.140   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   10.14   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    5.210000e-19    17.990000e-19    21.680000e-19    31.580000e-19 
+   26.830000e-19    1.0000e-33 
+
+H2O-state10
+   10.350   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   7   <- Energy # 
+Energy (eV): 
+   10.35   15    20   30    40 
+   50    50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.230000e-19    11.0000e-19    13.780000e-19    17.690000e-19 
+   15.190000e-19    1.0000e-33 
+
+H2O-state11
+   10.550   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   10.55   20   30    40   50  
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    8.130000e-19    10.030000e-19    12.820000e-19    11.00000e-19 
+   1.00000e-33  
+
+H2O-state12
+   10.70   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   10.70   20   30    40   50  
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    4.160000e-19    4.120000e-19    4.650000e-19    3.450000e-19 
+   1.00000e-33 
+
+H2O-state13
+   10.770   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   10.77   20   30    40   50  
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    1.140000e-19    1.770000e-19    2.590000e-19    2.690000e-19 
+   1.00000e-33 
+
+H2O-state14
+   10.840   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   10.84   20   30    40   50  
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.110000e-19    3.970000e-19    3.280000e-19    2.210000e-19 
+   1.00000e-33  
+
+H2O-state15
+   10.970   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   10.97   20   30    40   50 
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    5.670000e-19    9.760000e-19    15.120000e-19    14.870000e-19 
+   1.00000e-33 
+
+H2O-state16
+   11.10   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.10   20   30    40   50 
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    6.040000e-19    10.200000e-19    16.130000e-19    16.400000e-19 
+   1.00000e-33 
+
+H2O-state17
+   11.230   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.23   20   30    40   50 
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.470000e-19    5.220000e-19    5.040000e-19    4.00000e-19 
+   1.00000e-33 
+
+H2O-state18
+   11.350   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.35   20   30    40   50
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    5.960000e-19    8.620000e-19    11.860000e-19    10.580000e-19 
+   1.00000e-33  
+
+H2O-state19
+   11.50   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.50   20   30    40  50  
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    5.530000e-19    8.800000e-19    10.380000e-19    8.6400000e-19 
+   1.00000e-33 
+
+H2O-state20
+   11.645   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.645   20   30    40   50   
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    2.050000e-19    2.380000e-19    1.950000e-19    1.5600000e-19 
+   1.00000e-33 
+
+H2O-state21
+   11.68   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.68   20   30    40  50   
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.120000e-19    3.680000e-19    5.710000e-19    6.100000e-19 
+   1.00000e-33 
+
+H2O-state22
+   11.75   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.75   20   30    40  50  
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.320000e-19    7.230000e-19    10.560000e-19    12.390000e-19 
+   1.00000e-33 
+
+H2O-state23
+   11.80   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.80   20   30    40  50   
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.360000e-19    3.080000e-19    1.930000e-19    2.340000e-19 
+   1.00000e-33  
+
+H2O-state24
+   11.90   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   11.90   20   30    40  50    
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    3.570000e-19    4.480000e-19    6.590000e-19    4.920000e-19 
+   1.00000e-33  
+
+H2O-state25
+   12.06   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   6   <- Energy # 
+Energy (eV): 
+   12.06   20   30    40  50    
+   50.1
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008]: 
+   1e-33    8.590000e-19    18.0000e-19    22.820000e-19    16.950000e-19 
+   1.00000e-33 
+
+H2O-stateTOTAL
+   10   0    <- Threshold (eV) [Thorn, 2008], Charge state 
+   15   <- Energy # 
+Energy (eV): 
+   10  11.68   15    20   30    
+   40    50    50.1   100  200
+   300  400    500    700  1000
+5     <- Multiplication factor for cross section 
+Cross section (cm^2) [Thorn, 2008 and assumptions of linear decrease after 100 eV]: 
+   1e-33    1e-33    1e-33    1e-33    1e-33 
+   1e-33    1e-33    0.3e-16  0.3e-16    0.2778e-16
+   0.2556e-16 0.2333e-16 0.2111e-16    0.1667e-16    0.1e-16
+
+* IONIZATION cross sections for H2O 
+    6    <- Number of processes 
+Name, Ionization threshold (eV), Charge state: 
+H2OP 12.62   1    [NIST] 
+OHP   18.1   1    [NIST] 
+OP 19.0   1    [NIST] 
+OPP           54.1     2    [19 plus second ionization potential of O] 
+H2P          20.7     1    [NIST] 
+HP          16.95     1    [NIST] 
+
+------- 
+Ionization cross sections given in the same order as threshold 
+------- 
+   30   <- Number of energy levels 
+    Energy(eV)    Ionization cross sections (cm2) [Itikawa & Mason 2005 Table 11] 
+    13.5       0.025e-16        0           0           0           0           0               
+    15         0.126e-16        0           0           0           0           0               
+    17.5       0.272e-16      0.013e-17     0           0           0           0               
+    20         0.411e-16      0.145e-17     0           0           0           0.024e-17       
+    22.5       0.549e-16      0.500e-17     0           0           0           0.091e-17       
+    25         0.652e-16      0.855e-17     0.22e-18    0           0           0.207e-17       
+    30         0.815e-16      1.600e-17     0.37e-18    0           0.18e-19    0.433e-17       
+    35         0.958e-16      2.220e-17     0.70e-18    0           0.39e-19    0.759e-17       
+    40         1.050e-16      2.640e-17     1.32e-18    0           0.57e-19    1.100e-17        
+    45         1.120e-16      3.000e-17     2.07e-18    0           0.70e-19    1.450e-17       
+    50         1.180e-16      3.290e-17     2.75e-18    0           0.65e-19    1.780e-17       
+    60         1.240e-16      3.640e-17     3.94e-18    0           0.66e-19    2.350e-17      
+    70         1.270e-16      3.890e-17     4.84e-18    0           0.69e-19    2.790e-17      
+    80         1.310e-16      4.090e-17     5.94e-18    0           0.63e-19    3.170e-17       
+    90         1.310e-16      4.120e-17     6.66e-18    0.08e-19    0.78e-19    3.430e-17       
+    100        1.310e-16      4.180e-17     6.95e-18    0.19e-19    0.75e-19    3.600e-17       
+    110        1.290e-16      4.150e-17     7.38e-18    0.46e-19    0.73e-19    3.700e-17       
+    125        1.270e-16      4.120e-17     7.63e-18    0.69e-19    0.64e-19    3.750e-17       
+    150        1.210e-16      3.930e-17     7.52e-18    1.16e-19    0.77e-19    3.710e-17       
+    175        1.160e-16      3.810e-17     7.31e-18    1.78e-19    0.71e-19    3.660e-17       
+    200        1.120e-16      3.630e-17     7.07e-18    1.79e-19    0.54e-19    3.510e-17       
+    250        1.010e-16      3.340e-17     6.34e-18    1.95e-19    0.50e-19    3.160e-17       
+    300        0.921e-16      3.110e-17     5.51e-18    1.79e-19    0.45e-19    2.840e-17       
+    400        0.789e-16      2.660e-17     4.34e-18    1.34e-19    0.40e-19    2.370e-17      
+    500        0.696e-16      2.300e-17     3.73e-18    1.05e-19    0.32e-19    1.980e-17       
+    600        0.618e-16      2.030e-17     3.13e-18    0.96e-19    0.29e-19    1.720e-17       
+    700        0.555e-16      1.850e-17     2.71e-18    0.80e-19    0.33e-19    1.490e-17       
+    800        0.502e-16      1.690e-17     2.40e-18    0.80e-19    0.22e-19    1.350e-17       
+    900        0.465e-16      1.560e-17     2.20e-18    0.60e-19    0.32e-19    1.200e-17       
+    1000       0.432e-16      1.430e-17     1.94e-18    0.66e-19    0.24e-19    1.090e-17       
+ 			
