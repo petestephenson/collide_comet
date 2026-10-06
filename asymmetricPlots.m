@@ -56,7 +56,7 @@ swCasesNo = {'2767385',... % Dayside
 %% Load  reference case
 % figDir = 'D:/TestPlFigs/Total/';
 % figDir = 'D:/TestPlFigs/Total_Jan25/';
-figDir = 'F:/TestPlFigs/Total_Jan26/';
+figDir = 'E:/TestPlFigs/Total_Jan26/';
 
 plot_lim = 300;
 % figDir = 'E:/TestPlFigs/Secondaries/';
@@ -324,7 +324,7 @@ end
 
 
 
-figDir = 'F:/TestPlFigs/GroupedFigs_Jan26/';
+figDir = 'E:/TestPlFigs/GroupedFigs_Jan26/';
 vangleList = {[1,0,0],[0,-1,0],[0,0,1]};
 viewNamelist = { 'YZ','XZ','XY'};
 %%

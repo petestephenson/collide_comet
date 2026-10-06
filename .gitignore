@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv_collide/
+
+# MATLAB autosave
+*.asv
+
+# Figures made from the built-in synthetic demo data (not real results)
+Figures/demo/
+Figures/
